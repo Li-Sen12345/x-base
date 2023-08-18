@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>平台介绍</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/introduce.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="../img/LOGO.png" height="100%">
+				<span style="font-weight: bold;color: rgb(48, 46, 186);font-size: 25px;">X-base平台</span>
+			</div>
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="introduce.html">平台介绍</a></li>
+				<li><a href="documentation.html">文档中心</a></li>
+				<li><a href="toll.html">费用清单</a></li>
+				<li class="jszc">技术支持
+					<div class="ewm">
+						<img src="../img/二维码图片.png" width="100px">
+					</div>
+				</li>
+			</ul>
+		</header>
+		<div class="box">
+			<div class="box-title">
+				开发者平台
+			</div>
+			<div class="box-1">
+				<div class="box-1-title">
+					模块转化服务
+				</div>
+				<p style="margin-top: 10px;">平台基于业务数据完整性需求，以提升绘制和网络传输效率为目标，针对原始模型中三维几何数据、材质信息、构件属性信息定义了一套场景描述。原始模型需要经过模型转化服务转化为自定场景数据，该数据包含了模型和属性的双向驱动关联、可配置的三维场景优化选项、扩展以及获取数据接口等。</p><br>
+				<p>模型转化服务为提供API接口支持用户上传模型，转化模型，创建装配模型，删除模型等操作。</p>
+			</div>
+			<div class="box-1">
+				<div class="box-1-title" >
+					可视化服务
+				</div>
+				<p style="margin-top: 10px;">可视化服务支持用户把三维可视化服务集成到自己的业务场景中。可视化服务的集成提供了Javascript SDK和iframe嵌入两种模式：</p>
+				<br>
+				<ul class="box-2">
+					<li>iFrame嵌入第三方应用，无需额外开发</li>
+					<li>JS API开放给第三方应用，可实现业务和模型关联驱动</li>
+					<li>支持和各种企业管理系统对接</li>
+					<li>提供JS API支持第三方定制开发，包括UI定制</li>
+					<li>提供完整的开发SDK和示例代码</li>
+				</ul>
+			</div>
+			<div class="box-1">
+				<div class="box-1-title" style="font-size: 14px;font-weight: 300;">
+					JS SDK
+				</div>
+				<p style="margin-top: 10px;">Javascript SDK的支持用户基于平台的SDK二次开发可视化应用，实现最大程度的自定义。用户可以使用SDK加载模型，操作模型，定制UI等。</p>
+				<img src="../img/introduce/jssdk.png" width="100%">
+			</div>
+			<div class="box-1">
+				<div class="box-1-title" style="font-size: 14px;font-weight: 300;">
+					iframe
+				</div>
+				<p>平台还提供完整的模型预览页面，支持应用以iframe的形式把三维模型的可视化服务集成到应用中。相较于JS SDK，集成iframe的可定制程度有一定的限制，当然需要的开发工作量也会小一些。</p>
+				<img src="../img/introduce/iframe.jpg" width="100%">
+			</div>
+			<div class="box-1">
+				<div class="box-1-title">
+					数据服务
+				</div>
+				<p>数据服务用来为用户提供模型的数据服务，平台除了从原始格式中获取几何数据之外，也会获取模型构件的属性数据。数据服务支持应用通过API接口获取模型的非几何数据。 目前支持如下数据服务：</p>
+				<br>
+				<ul class="box-2">
+					<li>获取模型的结构树</li>
+					<li>获取模型的属性</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
